@@ -29,7 +29,7 @@ public class AnnotationTest {
 		
 		driver.findElement(By.xpath("//a[@href=\"/passwordrecovery\"]")).click();
 		
-		driver.findElement(By.xpath("//input[@id=\"Email\"]")).sendKeys("abc123@gmail.com");
+		driver.findElement(By.xpath("//input[@id=\"Email\"]")).sendKeys("abc345@gmail.com");
 		
 		driver.findElement(By.xpath("//input[@value=\"Recover\"]")).click();
 		
